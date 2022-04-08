@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegistrationSuite">
+<listeners>
+<listener class-name="com.Utility.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="TC_002Test">
+<parameter name="BrowserName" value="Chrome"></parameter>
+    <classes>
+      <class name="com.Test.TC_002VerifyRegiStration"/>
+    </classes>
+  </test> <!-- TC_002Test -->
+</suite> <!-- RegistrationSuite -->
